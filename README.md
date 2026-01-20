@@ -29,7 +29,7 @@ Local Copilot-style code completions for Neovim using [Ollama](https://ollama.ai
 
 ```lua
 {
-  "yourusername/llama-cmp.nvim",
+  "maxpaulus43/llama-cmp.nvim",
   event = "InsertEnter",
   config = function()
     require("llama-cmp").setup({
@@ -43,7 +43,7 @@ Local Copilot-style code completions for Neovim using [Ollama](https://ollama.ai
 
 ```lua
 use {
-  "yourusername/llama-cmp.nvim",
+  "maxpaulus43/llama-cmp.nvim",
   config = function()
     require("llama-cmp").setup({
       model = "qwen2.5-coder:1.5b",
@@ -57,7 +57,7 @@ use {
 Clone to your Neovim packages directory:
 
 ```bash
-git clone https://github.com/yourusername/llama-cmp.nvim \
+git clone https://github.com/maxpaulus43/llama-cmp.nvim \
   ~/.local/share/nvim/site/pack/plugins/start/llama-cmp.nvim
 ```
 
