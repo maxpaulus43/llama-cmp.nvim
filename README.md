@@ -30,12 +30,7 @@ Local Copilot-style code completions for Neovim using [Ollama](https://ollama.ai
 ```lua
 {
   "maxpaulus43/llama-cmp.nvim",
-  event = "InsertEnter",
-  config = function()
-    require("llama-cmp").setup({
-      model = "qwen2.5-coder:1.5b",
-    })
-  end,
+  opts = { model = "qwen2.5-coder:1.5b" }
 }
 ```
 
